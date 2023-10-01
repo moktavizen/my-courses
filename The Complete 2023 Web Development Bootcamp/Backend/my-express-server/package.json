@@ -1,0 +1,16 @@
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "description": "express virgin",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Avis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

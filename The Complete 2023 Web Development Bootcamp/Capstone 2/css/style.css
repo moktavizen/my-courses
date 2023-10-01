@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0 6.25rem;
+  background-color: #dde6ed;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin-bottom: 7.5rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 185%;
+}
+
+.short-p {
+  width: 62.5rem;
+}
+
+h1 {
+  color: #27374d;
+  font-size: 6.5rem;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.1;
+}
+
+h2 {
+  color: #9db2bf;
+  margin: 2rem 0;
+  font-size: 6.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+h3 {
+  color: #27374d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.info {
+  color: #27374d;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.resume {
+  background-color: #9db2bf;
+  padding: 1rem 2.5rem;
+  border: solid #27374d;
+  border-radius: 0.5rem;
+  margin-top: 2.5rem;
+  color: #27374d;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+.journey > ul {
+  margin: 9.5rem 0;
+  padding-left: 15.5rem;
+}
+
+.journey > ul > li > p {
+  margin-bottom: 5rem;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 7.5rem 0;
+  gap: 7.5rem;
+}
+
+.work-img {
+  width: 100%;
+}
+
+.work-item > h3 {
+  margin: 1rem 0;
+}
+
+.work-item > p {
+  font-size: 1rem;
+}
+
+.work-date {
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.contact {
+  display: flex;
+  gap: 3.75rem;
+  margin-bottom: 5.75rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.contact-list > li {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1440px) {
+  .short-p {
+    width: auto;
+  }
+
+  .journey > ul {
+    margin: 9.5rem 0;
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 1265px) {
+  .my-face {
+    margin-top: 5.75rem;
+  }
+  .my-face,
+  .my-face > img {
+    width: 65%;
+  }
+}
+@media (max-width: 1078px) {
+  .contact {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  .my-face,
+  .my-face > img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 8.5px;
+  }
+
+  .my-face,
+  .my-face > img {
+    width: 95%;
+  }
+
+  .contact-img,
+  .contact-img > img {
+    width: 100%;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
